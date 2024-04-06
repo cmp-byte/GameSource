@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A2D6A9232BC168B1008E2932 /* GameSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D6A9222BC168B1008E2932 /* GameSource.swift */; };
+		A2D6A92D2BC169FD008E2932 /* GameTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D6A92C2BC169FD008E2932 /* GameTheme.swift */; };
+		A2D6A92F2BC16A8A008E2932 /* RemoteGameTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D6A92E2BC16A8A008E2932 /* RemoteGameTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		A2D6A91F2BC168B1008E2932 /* libGameSource.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGameSource.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D6A9222BC168B1008E2932 /* GameSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSource.swift; sourceTree = "<group>"; };
+		A2D6A92C2BC169FD008E2932 /* GameTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTheme.swift; sourceTree = "<group>"; };
+		A2D6A92E2BC16A8A008E2932 /* RemoteGameTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteGameTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 		A2D6A9162BC168B1008E2932 = {
 			isa = PBXGroup;
 			children = (
+				A2D6A9292BC169C1008E2932 /* Models */,
 				A2D6A9212BC168B1008E2932 /* GameSource */,
 				A2D6A9202BC168B1008E2932 /* Products */,
 			);
@@ -60,6 +65,15 @@
 				A2D6A9222BC168B1008E2932 /* GameSource.swift */,
 			);
 			path = GameSource;
+			sourceTree = "<group>";
+		};
+		A2D6A9292BC169C1008E2932 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2D6A92C2BC169FD008E2932 /* GameTheme.swift */,
+				A2D6A92E2BC16A8A008E2932 /* RemoteGameTheme.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D6A9232BC168B1008E2932 /* GameSource.swift in Sources */,
+				A2D6A92D2BC169FD008E2932 /* GameTheme.swift in Sources */,
+				A2D6A92F2BC16A8A008E2932 /* RemoteGameTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -236,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
